@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*Estilos de Header*/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  background-color: blue;
+  width: 80%;
+  border-radius: 20px;
+  padding: 16px 24px 16px 24px;
+}
+h1 {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.autorData {
+  margin: 0px;
+  color: gray;
+}
+article {
+  background-color: blue;
+  border-radius: 20px;
+  padding: 24px;
+  /* display: flex;
+  flex: 1; */
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+iframe {
+  margin: 24px 0px 24px 0px;
+  width: 560px;
+  height: 315px;
+}
+p {
+  margin: 0;
+}
